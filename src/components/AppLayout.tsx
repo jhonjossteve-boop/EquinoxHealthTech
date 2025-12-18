@@ -151,12 +151,12 @@ const InstagramIcon = () => (
 
 // Data
 const productCategories = [
-  { id: 1, name: 'AI Diagnostic Systems', description: 'Imaging, scanning, and predictive analytics for accurate diagnoses', image: IMAGES.diagnostic, industry: 'Healthcare' },
+  { id: 1, name: 'Health Diagnostic Systems', description: 'Imaging, scanning, and predictive analytics for accurate diagnoses', image: IMAGES.diagnostic, industry: 'Healthcare' },
   { id: 2, name: 'Smart Rehabilitation Equipment', description: 'Adaptive therapy tools for recovery and performance enhancement', image: IMAGES.rehabilitation, industry: 'Sports' },
-  { id: 3, name: 'Cosmetic AI Devices', description: 'Skin analysis, laser treatments, and non-invasive enhancements', image: IMAGES.cosmetic, industry: 'Healthcare' },
-  { id: 4, name: 'Veterinary AI Tools', description: 'Monitoring, diagnostics, and treatment support for animals', image: IMAGES.veterinary, industry: 'Veterinary' },
+  { id: 3, name: 'Cosmetic Health Devices', description: 'Skin analysis, laser treatments, and non-invasive enhancements', image: IMAGES.cosmetic, industry: 'Healthcare' },
+  { id: 4, name: 'Veterinary Health Tools', description: 'Monitoring, diagnostics, and treatment support for animals', image: IMAGES.veterinary, industry: 'Veterinary' },
   { id: 5, name: 'Wearable Health Tech', description: 'Real-time tracking for athletes, patients, and pets', image: IMAGES.wearable, industry: 'Sports' },
-  { id: 6, name: 'AI Laser Treatment Systems', description: 'Advanced laser technology for medical and cosmetic applications', image: IMAGES.laser, industry: 'Healthcare' },
+  { id: 6, name: 'Health Laser Treatment Systems', description: 'Advanced laser technology for medical and cosmetic applications', image: IMAGES.laser, industry: 'Healthcare' },
 ];
 
 const industries = [
@@ -164,11 +164,11 @@ const industries = [
   { id: 2, name: 'Animal Care', description: 'Veterinary hospitals, pet wellness centers, animal rehabilitation clinics', image: IMAGES.vetClinic, icon: <ShieldIcon /> },
   { id: 3, name: 'Sports & Fitness', description: 'Professional sports clubs, athletic training centers, physical therapy, sports medicine', image: IMAGES.sports, icon: <TargetIcon /> },
   { id: 4, name: 'Research & Education', description: 'Universities, medical schools, AI research labs, innovation hubs', image: IMAGES.research, icon: <BookIcon /> },
-  { id: 5, name: 'Retail & Distribution', description: 'Medical equipment retailers, e-commerce platforms, B2B distributors', image: IMAGES.retail, icon: <TruckIcon /> },
+  { id: 5, name: 'Retail & Distribution', description: 'Medical equipment retlers, e-commerce platforms, B2B distributors', image: IMAGES.retail, icon: <TruckIcon /> },
 ];
 
 const whyChooseUs = [
-  { icon: <GlobeIcon />, title: 'Global Sourcing', description: 'Access to top-tier AI systems from leading manufacturers worldwide' },
+  { icon: <GlobeIcon />, title: 'Global Sourcing', description: 'Access to top-tier Health systems from leading manufacturers worldwide' },
   { icon: <TruckIcon />, title: 'Fast Logistics', description: 'Secure and efficient import logistics with reliable delivery timelines' },
   { icon: <CogIcon />, title: 'Customizable Solutions', description: 'Tailored configurations to meet your specific operational needs' },
   { icon: <SupportIcon />, title: 'Technical Support', description: 'Dedicated onboarding and ongoing technical assistance' },
@@ -198,7 +198,7 @@ const partnershipCategories = [
   { name: 'Healthcare Sector', items: ['Hospitals and clinics', 'Diagnostic labs', 'Rehabilitation centers', 'Cosmetic and dermatology practices', 'Elderly care facilities'] },
   { name: 'Animal Care', items: ['Veterinary hospitals', 'Pet wellness centers', 'Animal rehabilitation clinics'] },
   { name: 'Sports & Fitness', items: ['Professional sports clubs', 'Athletic training centers', 'Physical therapy practices', 'Sports medicine clinics'] },
-  { name: 'Research & Education', items: ['Universities and medical schools', 'AI and biomedical research labs', 'Innovation hubs and incubators'] },
+  { name: 'Research & Education', items: ['Universities and medical schools', 'Health and biomedical research labs', 'Innovation hubs and incubators'] },
   { name: 'Retail & Distribution', items: ['Medical equipment retailers', 'E-commerce platforms for health tech', 'B2B distributors and wholesalers'] },
 ];
 
@@ -726,8 +726,8 @@ const AppLayout: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-gray-400 text-sm">Email</div>
-                    <a href="mailto:info@aihealthtechsolutions.com" className="text-white hover:text-[#00a8a8] transition-colors">
-                      info@aihealthtechsolutions.com
+                    <a href="mailto:info@equinoxhealthtech.com" className="text-white hover:text-[#00a8a8] transition-colors">
+                      info@equinoxhealthtech.com
                     </a>
                   </div>
                 </div>
@@ -894,7 +894,7 @@ const AppLayout: React.FC = () => {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <div className="w-10 h-10 bg-gradient-to-br from-[#00a8a8] to-[#ff6b6b] rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">AI</span>
+                  <span className="text-white font-bold text-lg">Equinox</span>
                 </div>
                 <div>
                   <span className="font-bold">HealthTech</span>
@@ -957,7 +957,7 @@ const AppLayout: React.FC = () => {
               <ul className="space-y-3 text-sm text-gray-400">
                 <li className="flex items-center">
                   <MailIcon />
-                  <span className="ml-3">info@aihealthtechsolutions.com</span>
+                  <span className="ml-3">info@equinoxhealthtech.com</span>
                 </li>
                 <li className="flex items-center">
                   <PhoneIcon />
@@ -974,7 +974,7 @@ const AppLayout: React.FC = () => {
           {/* Bottom Bar */}
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 EquinoxHealthTech Solutions Inc. All rights reserved.
+              © 2025 EquinoxHealthTech Solutions Inc. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <button className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</button>
