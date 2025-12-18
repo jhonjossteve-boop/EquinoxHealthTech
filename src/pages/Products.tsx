@@ -764,19 +764,20 @@ const Products: React.FC = () => {
 
                 {/* Actions */}
                 <div className="flex gap-3">
-                  <button
-                    onClick={() => { setSelectedProduct(product); setSelectedImageIndex(0); }}
-                    className="flex-1 px-4 py-2.5 border-2 border-[#00a8a8] text-[#00a8a8] rounded-xl font-medium hover:bg-[#00a8a8] hover:text-white transition-all"
-                  >
-                    View Details
-                  </button>
-                  <button
-                    onClick={() => { setQuoteProduct(product); setShowQuoteModal(true); }}
-                    disabled={!product.inStock}
-                    className="flex-1 px-4 py-2.5 bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white rounded-xl font-medium hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-                  >
-                    Request Quote
-                  </button>
+                <button
+  onClick={() => {
+    window.location.href = `mailto:sales@yourcompany.com
+      ?subject=Request%20Quote%20-%20${encodeURIComponent(product.name)}
+      &body=Hello,%0D%0A%0D%0AI would like to request a quote for:%0D%0A
+      Product: ${encodeURIComponent(product.name)}%0D%0A
+      Availability: ${product.inStock ? "In Stock" : "Out of Stock"}%0D%0A%0D%0A
+      Please contact me with pricing and details.%0D%0A%0D%0AThank you.`;
+  }}
+  disabled={!product.inStock}
+  className="flex-1 px-4 py-2.5 bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white rounded-xl font-medium hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+>
+  Request Quote
+</button>
                 </div>
               </div>
             </div>
