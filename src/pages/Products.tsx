@@ -895,11 +895,13 @@ const Products: React.FC = () => {
                       className="flex-1 px-6 py-3 bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white rounded-xl font-semibold hover:shadow-lg disabled:opacity-50 transition-all"
                     >
                       Request Quote
-                    </button>
-                    <button className="px-6 py-3 border-2 border-[#00a8a8] text-[#00a8a8] rounded-xl font-semibold hover:bg-[#00a8a8] hover:text-white transition-all flex items-center">
-                      <DownloadIcon />
-                      <span className="ml-2">Brochure</span>
-                    </button>
+                  <button
+  onClick={() => window.open("https://www.ujutreer.com", "_blank")}
+  className="px-6 py-3 border-2 border-[#00a8a8] text-[#00a8a8] rounded-xl font-semibold hover:bg-[#00a8a8] hover:text-white transition-all flex items-center"
+>
+  <DownloadIcon />
+  <span className="ml-2">Brochure</span>
+</button>
                   </div>
                 </div>
               </div>
