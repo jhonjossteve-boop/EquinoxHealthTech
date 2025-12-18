@@ -254,7 +254,7 @@ const AppLayout: React.FC = () => {
             {/* Logo */}
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br from-[#00a8a8] to-[#ff6b6b] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">AI</span>
+                <span className="text-white font-bold text-lg">Equinox</span>
               </div>
               <div className="hidden sm:block">
                 <span className="text-white font-bold text-lg">HealthTech</span>
