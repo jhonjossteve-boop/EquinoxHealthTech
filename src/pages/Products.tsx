@@ -770,13 +770,13 @@ const Products: React.FC = () => {
                   >
                     View Details
                   </button>
-                  <button
-                    onClick={() => { setQuoteProduct(product); setShowQuoteModal(true); }}
-                    disabled={!product.inStock}
-                    className="flex-1 px-4 py-2.5 bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white rounded-xl font-medium hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-                  >
-                    Request Quote
-                  </button>
+                 <button
+  onClick={() => window.location.href = 'https://equinoxhealthtech.online/'}
+  disabled={!product.inStock}
+  className="flex-1 px-4 py-2.5 bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white rounded-xl font-medium hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+>
+  Request Quote
+</button>
                 </div>
               </div>
             </div>
@@ -888,13 +888,13 @@ const Products: React.FC = () => {
 
                   {/* Actions */}
                   <div className="flex gap-3">
-                    <button
-                      onClick={() => { setQuoteProduct(selectedProduct); setShowQuoteModal(true); setSelectedProduct(null); }}
-                      disabled={!selectedProduct.inStock}
-                      className="flex-1 px-6 py-3 bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white rounded-xl font-semibold hover:shadow-lg disabled:opacity-50 transition-all"
-                    >
-                      Request Quote
-                    </button>
+                <button
+  onClick={() => window.location.href = 'https://equinoxhealthtech.online/'}
+  disabled={!selectedProduct?.inStock}
+  className="flex-1 px-6 py-3 bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white rounded-xl font-semibold hover:shadow-lg disabled:opacity-50 transition-all"
+>
+  Request Quote
+</button>
                     <button className="px-6 py-3 border-2 border-[#00a8a8] text-[#00a8a8] rounded-xl font-semibold hover:bg-[#00a8a8] hover:text-white transition-all flex items-center">
                       <DownloadIcon />
                       <span className="ml-2">Brochure</span>
