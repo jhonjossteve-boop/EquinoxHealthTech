@@ -726,8 +726,8 @@ const AppLayout: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-gray-400 text-sm">Email</div>
-                    <a href="mailto:info@equinoxhealthtech.com" className="text-white hover:text-[#00a8a8] transition-colors">
-                      info@equinoxhealthtech.com
+                    <a href="mailto:sales@equinoxhealthtech.com" className="text-white hover:text-[#00a8a8] transition-colors">
+                      sales@equinoxhealthtech.com
                     </a>
                   </div>
                 </div>
@@ -738,7 +738,7 @@ const AppLayout: React.FC = () => {
                   <div>
                     <div className="text-gray-400 text-sm">Phone</div>
                     <a href="tel:+1-800-555-0123" className="text-white hover:text-[#00a8a8] transition-colors">
-                      +1 (800) 555-0123
+                     +1 315 244-9286
                     </a>
                   </div>
                 </div>
@@ -748,7 +748,8 @@ const AppLayout: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-gray-400 text-sm">Address</div>
-                    <span className="text-white">San Francisco, CA, USA</span>
+                    <span className="text-white">4336 Dozier St
+Los Angeles, CA 90022</span>
                   </div>
                 </div>
               </div>
