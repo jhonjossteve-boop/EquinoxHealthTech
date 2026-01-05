@@ -771,13 +771,16 @@ const Products: React.FC = () => {
                   >
                     View Details
                   </button>
-                 <button
-  onClick={() => window.location.href = 'https://equinoxhealthtech.online/'}
+         
+<button
+  onClick={() => window.open('https://equinoxhealthtech.online/', '_blank')}
   disabled={!product.inStock}
   className="flex-1 px-4 py-2.5 bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white rounded-xl font-medium hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all"
 >
   Request Quote
 </button>
+``
+
                 </div>
               </div>
             </div>
