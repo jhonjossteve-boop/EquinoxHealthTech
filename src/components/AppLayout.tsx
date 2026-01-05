@@ -716,7 +716,7 @@ const AppLayout: React.FC = () => {
               <span className="text-[#00a8a8] font-semibold text-sm uppercase tracking-wider">Get In Touch</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-white mt-2 mb-6">Contact Us</h2>
               <p className="text-gray-400 mb-8">
-                Ready to transform your healthcare operations with AI-powered solutions? Reach out to our team today.
+                Readyrr to transform your healthcare operations with AI-powered solutions? Reach out to our team today.
               </p>
 
               <div className="space-y-6">
