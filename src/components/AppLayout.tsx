@@ -646,12 +646,14 @@ const AppLayout: React.FC = () => {
                 <p className="text-gray-300 mb-6">
                   We're always looking for talented individuals who share our passion for innovation in healthcare technology.
                 </p>
-                <button
-                  onClick={() => scrollToSection('contact')}
-                  className="w-full bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all"
-                >
-                  View Open Positions
-                </button>
+             <a
+  href="/job-vacancy.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full block text-center bg-gradient-to-r from-[#ff6b6b] to-[#ff8e8e] text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all"
+>
+  View Open Positions
+</a>
               </div>
             </div>
           </div>
